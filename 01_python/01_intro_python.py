@@ -7,16 +7,19 @@ age = 18
 print(_name,age)
 
 # data type
+#string
 name="Ram"
+#Intigers
 age=18
+#Float
 price=25.38
 
 print(type(name))
 print(type(age))
 print(type(price))
+#For finding the types
 
 # boolean-true/false
-
 # print(type(isPrime)) #false = 123
 
 #comment in python
@@ -46,7 +49,7 @@ print(sum)
 #operators in python
 a=9
 b=5
-
+#Arthmatic Operators
 print(a+b)
 print(a-b)
 print(a*b)
@@ -111,26 +114,26 @@ sum = a+b
 print(sum)#python automatically change int to float
 
 ans = int(1 + 2.0)
-print(ans)# python ko forcefully int me convert karwaya gya hai
+print(ans)#forcefully float(2.0) ko (1)int me convert karwaya gya hai
 
 print(int("123"))
 print(bool(10))# true=1,flase = 0 
 
 
 
-#input valur in python 
+#Taking input in Python
 a = input("enter value of a:")
 print("welcome",a)
 
 b = input("enter a: ")
 c = input("enter b: ")
 sum = b+c
-print(sum)#gives string result
+print(sum)# Defualt gives string result
 
 b = int(input("enter a: "))
 c = int(input("enter b: "))
 sum = b+c
-print(sum)#gives sum result
+print(sum)#gives sum in int value result
 
 
 #print the average of 2 numbers
@@ -154,7 +157,7 @@ b=int(input("second number"))
 sum = a+b
 diff = a-b
 product = a*b
-quotient = a/b 
+quotient = a/b# it's gave alwase output in floating value 
 print(sum)
 print(diff)
 print(product)
