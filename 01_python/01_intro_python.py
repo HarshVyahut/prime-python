@@ -89,7 +89,7 @@ print((5 > 3) or (3 > 8))#or
 
 
 
-#operators precedence - priority order of operators in a single line
+#Operators precedence - priority order of operators in a single line
 '''
 order  similar to bodomas rule
 ()
@@ -109,9 +109,9 @@ if same precedence then goes to left to wright in line
 a,b = 1,2.0
 sum = a+b
 print(sum)#python automatically change int to float
-
-ans = int(1 + 2.0)
-print(ans)# python ko forcefully int me convert karwaya gya hai
+ans = float(3.0)
+         
+print(ans)# python ne forcefully int ko float main convert kiya gya hai
 
 print(int("123"))
 print(bool(10))# true=1,flase = 0 
@@ -122,10 +122,11 @@ print(bool(10))# true=1,flase = 0
 a = input("enter value of a:")
 print("welcome",a)
 
-b = input("enter a: ")
-c = input("enter b: ")
-sum = b+c
-print(sum)#gives string result
+a = input("enter the fist value")
+b = input("enter the secound value")
+sum = (a+b) 
+print(sum)
+#gives string result
 
 b = int(input("enter a: "))
 c = int(input("enter b: "))
@@ -174,6 +175,7 @@ print(str(a))
 print(type(int(a)))
 print(type(float(a)))
 print(type(str(a)))
+#manually coverting the string into anouther type
 
 # x = 10+3*2**2
 a=10
